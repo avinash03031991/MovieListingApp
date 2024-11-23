@@ -1,0 +1,33 @@
+.sort-menu {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--input-bg);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.sort-label {
+  font-size: 1rem;
+  color: #333;
+}
+
+.sort-select {
+  flex: 1;
+  padding: 0.5rem;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 0.3rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sort-select:hover {
+  border-color: var(--primary-color);
+}
+
+.sort-select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 5px var(--primary-color);
+}
